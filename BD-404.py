@@ -193,14 +193,14 @@ def window1():
 sys.stdout.write('\x1b]2;𓆩【KAMRUL】𓆪 \x07')
 
 
-    # KAMRUL Clover Logo - Green - Version 2.5
+    # KAMRUL Clover Logo - Green - Version 3.00
 def ____banner____():
     if 'win' in sys.platform:
         os.system('cls')
     else:
         os.system('clear')
     
-    print("""\033[1;32m
+    print("""\033[1;36m
         
     __    __   ______   __       __  _______   __    __  __       
 /  |  /  | /      \ /  \     /  |/       \ /  |  /  |/  |      
@@ -340,8 +340,8 @@ def old_One():
     meth = input(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mCHOICE {W}(A/B): {Y}").strip().upper()
     with tred(max_workers=30) as pool:
         ____banner____()
-        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G} {limit}{W}")
-        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}")
+        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;47mTOTAL ID FROM CRACK {Y}: {G} {limit}{W}")
+        print(f"       \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;48mUSE AIRPLANE MOD 1 ST FOR GOOD RESULT{G}")
         linex()
         for mal in user:
             uid = star + mal
@@ -531,4 +531,5 @@ def login_2(uid):
     loop += 1
 
 if __name__ == '__main__':
+
     BNG_71_()
