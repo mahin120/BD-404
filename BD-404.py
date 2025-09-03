@@ -533,4 +533,3 @@ def login_2(uid):
 if __name__ == '__main__':
 
     BNG_71_()
-
